@@ -48,7 +48,7 @@ I will post a test driver program `Proj1Test.hs`, which will operate similarly t
 
     ghc -O2 --make Proj1Test
 
-or similar. To run Proj1Test, give it the target as three separate command line arguments, for example ./Proj1Test D1 B1 G2 would search for the target ["D1", "B1", "G2"]. It will then use your Proj1 module to guess the target; the output will look something like:
+or similar. To run `Proj1Test`, give it the target as three separate command line arguments, for example `./Proj1Test D1 B1 G2` would search for the target **["D1", "B1", "G2"]**. It will then use your `Proj1` module to guess the target; the output will look something like:
 
 
 ```
